@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando formulário de cadastro</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Insira seu nome aqui..." required="true"></input>
+        </p>
+
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="insira seu email aqui..." required="true"></input>
+        
+        </p>
+
+        <p>
+            <label for="descrição">Descrição</label>
+            <textarea type="text" id="descrição" name="descrição"placeholder="fale mais sobre você aqui" required="true"></textarea>
+        </p>
+
+        <p>
+            <label for="modulo">Modulo</label>
+            <select name="modulo">
+                <option>Escolha o Modulo</option>
+                <option value="modulo1">Modulo 1</option>
+                <option value="modulo2">Modulo 2</option>
+                <option value="modulo3">Modulo 3</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha aqui..." required></input>
+        </p>
+
+        <p>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha novamente aqui..." required="true"></input>
+        </p>
+
+        <p>Deseja receber novidades em seu email?</p>
+        <label for="sim">Sim</label>
+        <input type="radio" id="sim" name="sim" value="sim">
+        <label for="não">Não</label>
+        <input type="radio" id="não" name="não" value="não">
+            
+     <button>Cadastrar</button>
+    </form>
+    
+</body>
+</html>
